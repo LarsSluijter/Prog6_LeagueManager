@@ -10,6 +10,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeagueManager.Test", "LeagueManager.Test\LeagueManager.Test.csproj", "{F7847823-9902-44B8-A4E1-AA17C1243DA4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeagueManager.WPF", "LeagueManager.WPF\LeagueManager.WPF.csproj", "{2F001A70-C84F-48B0-B45E-3947B6077533}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FC5172B3-0A46-4D40-AB54-2C4417C29933} = {FC5172B3-0A46-4D40-AB54-2C4417C29933}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
